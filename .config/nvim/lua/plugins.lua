@@ -31,6 +31,7 @@ require 'custom.plugins.git'
 require 'custom.plugins.git-conflict'
 require 'custom.plugins.harpoon'
 require 'custom.plugins.markdown'
+require 'custom.plugins.undotree'
 
 -- NOTE: You can add your own plugins, configuration, etc. in `lua/custom/plugins/*.lua`.
 --
