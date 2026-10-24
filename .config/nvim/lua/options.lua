@@ -85,3 +85,15 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Set the number of spaces a <Tab> counts for during editing
+vim.opt.tabstop = 4
+
+-- Set the number of spaces used for each step of (auto)indent
+vim.opt.shiftwidth = 4
+
+-- When on, a <Tab> in insert mode inserts spaces depending on shiftwidth/tabstop
+vim.opt.expandtab = true
+
+-- Copy indent from current line when starting a new line
+vim.opt.smartindent = true
