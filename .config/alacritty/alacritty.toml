@@ -1,0 +1,10 @@
+# Added by Gogh
+[general]
+import = ["~/.config/alacritty/gogh.toml"]
+
+[font]
+size=18
+normal={family="JetBrainsMono Nerd Font", style="Regular"}
+
+[window]
+option_as_alt = "OnlyLeft"
