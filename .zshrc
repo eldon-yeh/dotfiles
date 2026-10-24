@@ -79,6 +79,14 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Use ripgrep for fzf default search
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!.git/*"'
+
+# Apply the same command to CTRL-T (file search shortcut)
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+export FZF_ALT_C_COMMAND="fd --type d --hidden --follow --exclude .git"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
