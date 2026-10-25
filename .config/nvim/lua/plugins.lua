@@ -47,4 +47,9 @@ require 'custom.plugins.undotree'
 -- require 'custom.plugins.ui'
 -- require 'custom.plugins.git'
 
+-- Per-machine overrides (theme etc.). `lua/local.lua` is untracked and optional;
+-- it loads last so it can override anything above.
+local ok, err = pcall(require, 'local')
+if not ok and not err:find("module 'local' not found", 1, true) then vim.notify(err, vim.log.levels.ERROR) end
+
 -- vim: ts=2 sts=2 sw=2 et
