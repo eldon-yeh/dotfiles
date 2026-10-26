@@ -117,6 +117,8 @@ local servers = {
   ts_ls = {}, -- TypeScript / JavaScript / React (.ts, .tsx, .js, .jsx)
   eslint = {}, -- ESLint diagnostics
   omnisharp = {}, -- C# / .NET
+  helm_ls = {}, -- Helm charts (uses yamlls for values files)
+  yamlls = {}, -- YAML
 
   stylua = {}, -- Used to format Lua code
 

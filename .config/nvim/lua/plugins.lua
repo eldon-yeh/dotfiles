@@ -30,6 +30,7 @@ require 'custom.plugins.catppuccin'
 require 'custom.plugins.git'
 require 'custom.plugins.git-conflict'
 require 'custom.plugins.harpoon'
+require 'custom.plugins.helm'
 require 'custom.plugins.markdown'
 require 'custom.plugins.undotree'
 
