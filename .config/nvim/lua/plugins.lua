@@ -33,6 +33,7 @@ require 'custom.plugins.harpoon'
 require 'custom.plugins.helm'
 require 'custom.plugins.markdown'
 require 'custom.plugins.undotree'
+require 'custom.plugins.vimtex'
 
 -- NOTE: You can add your own plugins, configuration, etc. in `lua/custom/plugins/*.lua`.
 --

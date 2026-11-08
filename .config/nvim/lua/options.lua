@@ -97,3 +97,6 @@ vim.opt.expandtab = true
 
 -- Copy indent from current line when starting a new line
 vim.opt.smartindent = true
+
+-- Latex path
+-- vim.env.PATH = vim.env.PATH .. ':/Library/TeX/texbin'
