@@ -119,6 +119,7 @@ local servers = {
   omnisharp = {}, -- C# / .NET
   helm_ls = {}, -- Helm charts (uses yamlls for values files)
   yamlls = {}, -- YAML
+  marksman = {}, -- Markdown: grd on [text](#heading) jumps to the heading, link/heading completion
 
   stylua = {}, -- Used to format Lua code
 
